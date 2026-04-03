@@ -1,0 +1,29 @@
+{% extends "!footer.html" %}
+{%- block contentinfo %}
+    <p>
+    {%- if show_copyright %}
+      {%- if hasdoc('copyright') %}
+        &#169; <a href="{{ pathto('copyright') }}">Copyright</a> {{ copyright|safe }}.
+      {%- else %}
+        &#169; Copyright {{ copyright|safe }}.
+      {%- endif %}
+    {%- endif %}
+
+    {%- if build_id and build_url %}
+      <span class="build">
+        {%- trans %}Build{% endtrans -%}
+        <a href="{{ build_url }}">{{ build_id }}</a>.
+      </span>
+    {%- elif commit %}
+      <span class="commit">
+        {%- trans %}Revision{% endtrans %} <code>{{ commit }}</code>.
+      </span>
+    {%- endif %}
+    {%- if last_updated %}
+      <span class="lastupdated">
+        {%- trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+      </span>
+    {%- endif -%}
+
+    </p>
+{%- endblock %}
