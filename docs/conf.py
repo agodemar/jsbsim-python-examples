@@ -49,9 +49,10 @@ nbsphinx_prolog = """
 
 templates_path   = ['_templates']
 exclude_patterns = [
-    '_build',             # Sphinx build output
+    'docs/_build',        # Sphinx build output (relative to project-root sourcedir)
     'Thumbs.db',
     '.DS_Store',
+    'README.md',          # not part of the doc tree
     '**/.ipynb_checkpoints',
 ]
 
