@@ -84,7 +84,7 @@ xdg-open _build/html/index.html  # Linux
 ## Project structure
 
 ```
-jsbsim-python-api-usage/
+jsbsim-python-examples/
 ├── environment.yml          # Conda environment definition
 ├── notebooks/               # Jupyter notebooks
 │   ├── 01_jsbsim_hello_world.ipynb
