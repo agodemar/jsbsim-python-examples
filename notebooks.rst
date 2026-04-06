@@ -12,3 +12,7 @@ recommended reading order.
    notebooks/03_pathsim_intro
    notebooks/04_pathsim_jsbsim_trim_elevator_doublet
    notebooks/05_pathsim_flight
+   notebooks/06_aoa_vs_cas
+   notebooks/07_rudder_kick
+   notebooks/08_thrust_vectoring_analysis
+   notebooks/09_trim_envelope

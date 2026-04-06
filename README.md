@@ -13,6 +13,10 @@ The repository also hosts a [Sphinx](https://www.sphinx-doc.org/)-based static d
 | [03 – PathSim Introduction](notebooks/03_pathsim_intro.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agodemar/jsbsim-python-examples/blob/main/notebooks/03_pathsim_intro.ipynb) | Block-diagram modelling with PathSim: sources, integrators, amplifiers, adders, and scopes. |
 | [04 – JSBSim Trim & Elevator Doublet](notebooks/04_pathsim_jsbsim_trim_elevator_doublet.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agodemar/jsbsim-python-examples/blob/main/notebooks/04_pathsim_jsbsim_trim_elevator_doublet.ipynb) | Trimming a JSBSim FDM and applying a doublet elevator input using a PathSim `DynamicalFunction` block. |
 | [05 – pathsim-flight Integration](notebooks/05_pathsim_flight.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agodemar/jsbsim-python-examples/blob/main/notebooks/05_pathsim_flight.ipynb) | Using `pathsim-flight`'s `JSBSimWrapper` to embed JSBSim as a PathSim block, and the `ISAtmosphere` utility. |
+| [06 – AoA vs CAS](notebooks/06_aoa_vs_cas.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agodemar/jsbsim-python-examples/blob/main/notebooks/06_aoa_vs_cas.ipynb) | Trimmed angle-of-attack vs calibrated airspeed curves for a Bombardier Global 5000 over a range of altitudes and weights. |
+| [07 – Rudder Kick](notebooks/07_rudder_kick.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agodemar/jsbsim-python-examples/blob/main/notebooks/07_rudder_kick.ipynb) | Simulating a pilot's rudder-kick test with a ramp rudder input and coordinated aileron, plotting sideslip angle time history. |
+| [08 – Thrust Vectoring Analysis](notebooks/08_thrust_vectoring_analysis.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agodemar/jsbsim-python-examples/blob/main/notebooks/08_thrust_vectoring_analysis.ipynb) | Comparing the effect of varying the thrust-vector angle on fuel burn for cruise and climb conditions, following a NASA report. |
+| [09 – Trim Envelope](notebooks/09_trim_envelope.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agodemar/jsbsim-python-examples/blob/main/notebooks/09_trim_envelope.ipynb) | Computing the trim envelope over a range of airspeeds and flight-path angles, visualising required thrust and AoA via a colour map. |
 
 ## Documentation
 
@@ -109,7 +113,11 @@ jsbsim-python-examples/
 │   ├── 02_jsbsim_flight_simulation.ipynb
 │   ├── 03_pathsim_intro.ipynb
 │   ├── 04_pathsim_jsbsim_trim_elevator_doublet.ipynb
-│   └── 05_pathsim_flight.ipynb
+│   ├── 05_pathsim_flight.ipynb
+│   ├── 06_aoa_vs_cas.ipynb
+│   ├── 07_rudder_kick.ipynb
+│   ├── 08_thrust_vectoring_analysis.ipynb
+│   └── 09_trim_envelope.ipynb
 └── docs/                    # Sphinx documentation source
     ├── conf.py
     ├── index.rst
