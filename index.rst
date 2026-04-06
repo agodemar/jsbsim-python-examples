@@ -14,7 +14,7 @@ including integration with `PathSim`_, `PathView`_, and `pathsim-flight`_.
 .. _pathsim-flight: https://github.com/pathsim/pathsim-flight
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Notebooks
 
    notebooks
@@ -50,7 +50,7 @@ Quick start
 
    # 1. Create and activate the conda environment
    conda env create -f environment.yml
-   conda activate jsbsim-api
+   conda activate jsbsim-python-examples
 
    # 2. Launch JupyterLab
    jupyter lab
