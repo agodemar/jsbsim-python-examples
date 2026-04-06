@@ -1,4 +1,4 @@
-# JSBSim Python API Usage
+# JSBSim Python Examples
 
 A collection of Jupyter notebooks showcasing examples of the [JSBSim](https://github.com/JSBSim-Team/jsbsim) Python API, including integration with [PathSim](https://github.com/pathsim/pathsim), [PathView](https://view.pathsim.org/), and [pathsim-flight](https://github.com/pathsim/pathsim-flight).
 
