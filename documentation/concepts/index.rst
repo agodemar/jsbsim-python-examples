@@ -1,9 +1,6 @@
 Concepts
 ========
 
-Overview
---------
-
 This is a work in progress. 
 
 The concepts documentation covers the fundamental ideas and principles behind JSBSim, such as the structure of aircraft models, the physics of flight simulation, and the design of the API. 
