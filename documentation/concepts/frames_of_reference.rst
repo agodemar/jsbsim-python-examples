@@ -9,8 +9,8 @@ some basic information about the frames of reference used:
 * to assign inputs for a given flight condition.
 
 Reference sources:
-- `JSBSim Reference Manual - Frames of reference <https://jsbsim-team.github.io/jsbsim-reference-manual/user/concepts/frames-of-reference/index.html>`_
-- `Wikipedia about axes conventions <https://en.wikipedia.org/wiki/Axes_conventions>`_
+* `JSBSim Reference Manual - Frames of reference <https://jsbsim-team.github.io/jsbsim-reference-manual/user/concepts/frames-of-reference/index.html>`_
+* `Wikipedia about axes conventions <https://en.wikipedia.org/wiki/Axes_conventions>`_
 
 Structural, or "Construction" Frame
 ------------------------------------
