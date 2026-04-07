@@ -8,7 +8,9 @@ some basic information about the frames of reference used:
 * to specify conditions related to aircraft position and orientation in space,
 * to assign inputs for a given flight condition.
 
-Reference source: `JSBSim Reference Manual - Frames of reference <https://jsbsim-team.github.io/jsbsim-reference-manual/user/concepts/frames-of-reference/index.html>`_.
+Reference sources:
+- `JSBSim Reference Manual - Frames of reference <https://jsbsim-team.github.io/jsbsim-reference-manual/user/concepts/frames-of-reference/index.html>`_
+- `Wikipedia about axes conventions <https://en.wikipedia.org/wiki/Axes_conventions>`_
 
 Structural, or "Construction" Frame
 ------------------------------------
@@ -23,10 +25,12 @@ tail, the Y-axis points toward the right wing, and Z is positive upward. A commo
 :math:`O_\mathrm{C}` is near the front of the aircraft. This frame is often denoted as
 :math:`\mathcal{F}_\mathrm{C} = \{O_\mathrm{C}, x_\mathrm{C}, y_\mathrm{C}, z_\mathrm{C}\}`.
 
-.. image:: ../../docs/_static/concepts/frames-of-reference/ac_construction_axes.svg
+.. figure:: ../../docs/_static/concepts/frames-of-reference/ac_construction_axes.svg
    :width: 90%
    :align: center
    :alt: Aircraft construction frame
+
+   Aircraft structural (construction) frame of reference.
 
 The :math:`x_\mathrm{C}` axis is often aligned with the fuselage centerline and frequently
 with thrust axis. Positions along the axes are commonly called stations
