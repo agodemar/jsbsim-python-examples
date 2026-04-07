@@ -5,8 +5,8 @@
 JSBSim Python Examples
 ======================
 
-A collection of Jupyter notebooks showcasing examples of the `JSBSim`_ Python API,
-including integration with `PathSim`_, `PathView`_, and `pathsim-flight`_.
+This collection of Jupyter notebooks is here to serve as an example-based documentation of the `JSBSim`_ Python API.
+The examples include demos of how JSBSim can be integrated with interesting Python libraries, such as `PathSim`_, and `pathsim-flight`_, and `PathView`_.
 
 .. _JSBSim: https://github.com/JSBSim-Team/jsbsim
 .. _PathSim: https://github.com/pathsim/pathsim
@@ -14,10 +14,29 @@ including integration with `PathSim`_, `PathView`_, and `pathsim-flight`_.
 .. _pathsim-flight: https://github.com/pathsim/pathsim-flight
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Notebooks
+   :maxdepth: 1
+   :caption: JSBSim Basics
 
-   notebooks
+   notebooks/01_jsbsim_hello_world
+   notebooks/02_jsbsim_flight_simulation
+
+.. toctree::
+   :maxdepth: 1
+   :caption: PathSim Integration
+
+   notebooks/03_pathsim_intro
+   notebooks/04_pathsim_jsbsim_trim_elevator_doublet
+   notebooks/05_pathsim_flight
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Advanced Analysis
+
+   notebooks/06_aoa_vs_cas
+   notebooks/07_rudder_kick
+   notebooks/08_thrust_vectoring_analysis
+   notebooks/09_trim_envelope
+   notebooks/10_trim_envelope_climb
 
 .. toctree::
    :maxdepth: 1
