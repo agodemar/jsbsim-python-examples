@@ -16,7 +16,7 @@ Simulation
 ----------
 TBD.
 
-Frames of reference (See `frames of reference`_, a work in progress)
+Frames of reference
 ----------
 TBD.
 
