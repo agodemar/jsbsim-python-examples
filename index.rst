@@ -5,7 +5,7 @@
 Overview
 ========
 
-.. image:: docs/_static/logo_jsbsim_globe.svg
+.. image:: docs/_static/logo_jsbsim_globe.*
    :width: 360px
    :align: center
    :alt: JSBSim logo
