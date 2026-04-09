@@ -105,6 +105,11 @@ jobs:
             docs/_build/latex/*.tex
 
       # -----------------------------------------------------------------------
+      - name: Copy PDF into HTML output for static site
+        run: |
+          cp docs/_build/latex/JSBSimPythonExamples.pdf docs/_build/html/ || true
+
+      # -----------------------------------------------------------------------
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
