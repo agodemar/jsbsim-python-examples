@@ -92,7 +92,6 @@ latex_elements = {
     'preamble': r'''
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{textgreek}
 ''',
 }
 
