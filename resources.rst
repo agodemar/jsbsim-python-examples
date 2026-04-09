@@ -1,6 +1,11 @@
 Resources
 =========
 
+This documentation
+------------------
+
+* `Download this documentation as PDF <JSBSimPythonExamples.pdf>`_
+
 Related projects
 ----------------
 
