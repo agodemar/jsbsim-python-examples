@@ -90,6 +90,10 @@ latex_elements = {
     'pointsize': '10pt',
     'inputenc': r'\usepackage[utf8]{inputenc}',
     'preamble': r'''
+%<agodemar>
+\DeclareUnicodeCharacter{0394}{\ensuremath{\Delta}}
+\DeclareUnicodeCharacter{0394}{\ensuremath{\delta}}
+%</agodemar>
 \usepackage{amsmath}
 \usepackage{amssymb}
 ''',
