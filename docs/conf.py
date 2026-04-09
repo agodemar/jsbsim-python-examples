@@ -88,14 +88,47 @@ latex_engine = 'pdflatex'
 latex_elements = {
     'papersize': 'a4paper',
     'pointsize': '10pt',
-    'inputenc': r'\usepackage[utf8]{inputenc}',
     'preamble': r'''
-%<agodemar>
-\DeclareUnicodeCharacter{0394}{\ensuremath{\Delta}}
-\DeclareUnicodeCharacter{0394}{\ensuremath{\delta}}
-%</agodemar>
+\usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amssymb}
+% Greek letters
+\DeclareUnicodeCharacter{0394}{\ensuremath{\Delta}}
+\DeclareUnicodeCharacter{03B1}{\ensuremath{\alpha}}
+\DeclareUnicodeCharacter{03B4}{\ensuremath{\delta}}
+\DeclareUnicodeCharacter{03B6}{\ensuremath{\zeta}}
+\DeclareUnicodeCharacter{03B8}{\ensuremath{\theta}}
+\DeclareUnicodeCharacter{03BC}{\ensuremath{\mu}}
+\DeclareUnicodeCharacter{03C4}{\ensuremath{\tau}}
+\DeclareUnicodeCharacter{03C6}{\ensuremath{\phi}}
+\DeclareUnicodeCharacter{03C8}{\ensuremath{\psi}}
+\DeclareUnicodeCharacter{03C9}{\ensuremath{\omega}}
+% Superscripts
+\DeclareUnicodeCharacter{00B2}{\ensuremath{^{2}}}
+\DeclareUnicodeCharacter{00B3}{\ensuremath{^{3}}}
+% Math operators and symbols
+\DeclareUnicodeCharacter{00B0}{\ensuremath{^{\circ}}}
+\DeclareUnicodeCharacter{00B1}{\ensuremath{\pm}}
+\DeclareUnicodeCharacter{00D7}{\ensuremath{\times}}
+\DeclareUnicodeCharacter{2212}{\ensuremath{-}}
+% Arrows
+\DeclareUnicodeCharacter{2190}{\ensuremath{\leftarrow}}
+\DeclareUnicodeCharacter{2191}{\ensuremath{\uparrow}}
+\DeclareUnicodeCharacter{2192}{\ensuremath{\rightarrow}}
+\DeclareUnicodeCharacter{2193}{\ensuremath{\downarrow}}
+% Dashes and punctuation
+\DeclareUnicodeCharacter{2013}{\textendash}
+\DeclareUnicodeCharacter{2014}{\textemdash}
+\DeclareUnicodeCharacter{2026}{\textellipsis}
+% Box-drawing characters (used in ASCII diagrams)
+\DeclareUnicodeCharacter{2500}{-}
+\DeclareUnicodeCharacter{2502}{|}
+\DeclareUnicodeCharacter{2514}{-}
+\DeclareUnicodeCharacter{2518}{-}
+% Dot-above accented letters
+\DeclareUnicodeCharacter{1E8B}{\ensuremath{\dot{x}}}
+\DeclareUnicodeCharacter{1E8D}{\ensuremath{\ddot{x}}}
+\DeclareUnicodeCharacter{1E8F}{\ensuremath{\dot{y}}}
 ''',
 }
 
