@@ -75,6 +75,7 @@ jobs:
             texlive-latex-extra \
             texlive-fonts-recommended \
             texlive-fonts-extra \
+            texlive-plain-generic \
             texlive-science \
             latexmk
 
