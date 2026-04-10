@@ -15,6 +15,14 @@ mkdir -p .codespaces
 "$PYTHON_BIN" -m pip freeze > .codespaces/requirements-session-lock.txt
 "$PYTHON_BIN" -m pip list --format=json > .codespaces/pip-list-session.json
 
+if command -v dpkg-query >/dev/null 2>&1; then
+  dpkg-query -W -f='${Package}=${Version}\n' > .codespaces/system-packages-session.txt
+fi
+
+if command -v apt-mark >/dev/null 2>&1; then
+  apt-mark showmanual | sort > .codespaces/apt-manual-packages.txt
+fi
+
 if command -v code >/dev/null 2>&1; then
   {
     echo "# VS Code extensions (id@version)"

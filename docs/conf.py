@@ -90,7 +90,9 @@ latex_elements = {
     'pointsize': '10pt',
     'maketitle': r'''
 \sphinxmaketitle
-\tableofcontents
+''',
+    'tableofcontents': r'''
+\sphinxtableofcontents
 \listoffigures
 ''',
     'preamble': r'''
@@ -147,12 +149,8 @@ latex_elements = {
 \usepackage{textcomp}% AFTER newtxtext to avoid clashes
 
 % === MATH
-\usepackage[intlimits]{amsmath}
-\usepackage{amsfonts}
-\usepackage{amsbsy}
 \usepackage{fixmath}
 \usepackage{mathtools}
-\usepackage{amssymb}
 
 % === UNITS
 \usepackage{siunitx}
