@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('..'))
 
 # -- Project information ------------------------------------------------------
 
-project   = 'JSBSim Python Examples'
+project   = 'JSBSim by Python Examples'
 copyright = '2026, <a href="https://github.com/agodemar/">Agostino De Marco</a> (<a href="https://www.linkedin.com/in/agostino-de-marco-08398a7">LinkedIn</a>)'
 author    = 'Agostino De Marco'
 release   = '1.0'
@@ -74,7 +74,7 @@ html_theme_options = {
 
 html_static_path = ['_static']
 
-html_title = 'JSBSim Python Examples'
+html_title = 'JSBSim <em>by</em> Python Examples'
 
 # -- nbsphinx options ---------------------------------------------------------
 
@@ -181,7 +181,7 @@ latex_documents = [
     (
         master_doc,
         'JSBSimPythonExamples.tex',
-        'JSBSim Python Examples',
+        r'JSBSim \textit{by} Python Examples',
         'Agostino De Marco',
         'manual',
     ),
