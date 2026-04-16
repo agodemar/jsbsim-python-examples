@@ -73,7 +73,7 @@ conda env remove -n jsbsim-python-examples
 
 > **Tested environment:** This procedure has been verified in a
 > [GitHub Codespaces](https://github.com/features/codespaces) instance of this
-> repository (Python 3.11, Debian Trixie, April 2026). Results may vary in
+> repository (Python 3.11, Debian Trixie, April 2026, configured by the Author). Results may vary in
 > other environments.
 
 The conda environment installs the **stable JSBSim release** from PyPI.
