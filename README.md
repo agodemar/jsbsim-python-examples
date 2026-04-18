@@ -69,7 +69,7 @@ conda deactivate
 conda env remove -n jsbsim-python-examples
 ```
 
-## Updating the JSBSim Python API to the latest GitHub snapshot
+## Updating the JSBSim Python API to the latest GitHub snapshot (Tested in Codespaces)
 
 > **Tested environment:** This procedure has been verified in a
 > [GitHub Codespaces](https://github.com/features/codespaces) instance of this
